@@ -1,7 +1,7 @@
 ### Ziggeo Angular v2 & v4 implementation
 Currently this demo based on v4 but you can also use the same code with Angular >=2.2.0. You can rename `angular2-dev-package.json` to `package.json` and set correct route config in root module.
 
-#### Installation in your own project
+#### Installation demo project
 - Install all dependencies `npm install`
 - For UMD use you can include `ZiggeoModule` from `ziggeo-angular` package directly.<br/>
 Example: `import {ZiggeoModule} from 'angular-ziggeo'`
