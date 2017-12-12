@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
@@ -36,3 +37,22 @@ const appRoutes: Routes = [
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+=======
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+
+import { AppComponent } from './app.component';
+import { ZiggeoRootModule } from "angular2-ziggeo";
+
+@NgModule({
+  imports: [ BrowserModule ],
+  declarations: [
+      AppComponent, ZiggeoRootModule
+  ],
+  bootstrap: [ AppComponent ],
+  providers: [],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+})
+export class AppModule {
+}
+>>>>>>> db532c472412e030c8fc396e45975e2dcc70465a

@@ -1,12 +1,25 @@
+<<<<<<< HEAD
 # EditorConfig is awesome: http://EditorConfig.org
 
 # top-most EditorConfig file
 root = true
 
 # Unix-style newlines with a newline ending every file
+=======
+# Editor configuration, see http://editorconfig.org
+root = true
+
+>>>>>>> db532c472412e030c8fc396e45975e2dcc70465a
 [*]
 charset = utf-8
 indent_style = space
 indent_size = 2
 insert_final_newline = true
 trim_trailing_whitespace = true
+<<<<<<< HEAD
+=======
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
+>>>>>>> db532c472412e030c8fc396e45975e2dcc70465a
